@@ -106,7 +106,7 @@ const Register = () => {
             />
           </div>
           <div className="flex items-center justify-between">
-            <Button type={"submit"} text={"Register"} />
+            <Button style={'w-full'} type={"submit"} text={"Register"} />
           </div>
         </form>
       </div>

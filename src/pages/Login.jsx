@@ -74,7 +74,7 @@ const Login = () => {
             />
           </div>
           <div className="flex items-center justify-between">
-            <Button type={"submit"} text={"Login"} />
+            <Button style={'w-full'} type={"submit"} text={"Login"} />
           </div>
         </form>
         <div className='font-medium text-sm mt-2'>Belum punya akun? <span className='underline'><Link to={'/register'}>Daftar</Link></span></div>
